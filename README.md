@@ -1,4 +1,4 @@
-# ISI Home Assignment
+# Computer Vision Model Agnostic Application with containerized deployment managed by k8
 
 
 ### Running the pipeline
@@ -37,6 +37,3 @@ minikube service inference-service --url
 ```
 This command will open a browser window and provide a URL that you can navigate to in order to access the FastAPI UI. 
 Within the FastAPI UI, you can directly pass an image and a task to the pipeline to test it. 
-
-### Authors
-Jack Miller
