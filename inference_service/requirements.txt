@@ -1,0 +1,9 @@
+sqlalchemy~=1.4.39
+uvicorn~=0.23.2
+httpx~=0.24.1
+requests~=2.31.0
+fastapi~=0.99.1
+pillow~=9.4.0
+torchvision~=0.15.2
+numpy~=1.25.2
+psycopg2~=2.9.3

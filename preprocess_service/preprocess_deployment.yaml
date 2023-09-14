@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: preprocess-service-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: preprocess-service
+  template:
+    metadata:
+      labels:
+        app: preprocess-service
+    spec:
+      containers:
+      - name: preprocess-service
+        image: preprocess-service:latest
+        ports:
+        - containerPort: 5002
