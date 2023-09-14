@@ -1,4 +1,4 @@
-# Computer Vision Model Agnostic Application with containerized deployment managed by k8
+# Computer Vision Model Agnostic Application with containerized deployment managed by k8s
 
 ### Usage Overview
 The service can be accessed by sending a POST request to the inference service API, with a payload of an image to perform inference on, and a string with the specific inference task to perform. Options are: “classification,” “detection,” or “segmentation.” In the case of classification, the API response will be a label in the form of a string. For detection and segmentation, the API will return an image with a bounding box or a segmented image. 
