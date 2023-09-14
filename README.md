@@ -2,7 +2,8 @@
 
 ### Usage Overview
 The service can be accessed by sending a POST request to the inference service API, with a payload of an image to perform inference on, and a string with the specific inference task to perform. Options are: “classification,” “detection,” or “segmentation.” In the case of classification, the API response will be a label in the form of a string. For detection and segmentation, the API will return an image with a bounding box or a segmented image. 
-![architecture_isi](https://github.com/jackhmiller/CV_microservice_app/assets/46448482/c3d2e1e5-1ad9-4c63-83fa-f0df30353509)
+![architecture_isi](https://github.com/jackhmiller/CV_microservice_app/assets/46448482/058ba07f-02c9-4aee-9091-60f6d1860e10)
+
 
 ### Running the pipeline
 The two services are stored in two repositories: inference-service & preprocess-service.
